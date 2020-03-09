@@ -1,0 +1,119 @@
+[
+  {
+    "Name": "Cedar Park Christian",
+    "Private School or Higher Education Institution": "Private",
+    "Grades Served": "K–12",
+    "City": "Bothell",
+    "Number of Closed Days": 1,
+    "Closure Dates": "3/2",
+    "Source": "OSPI"
+  },
+  {
+    "Name": "Lake Washington Institute of Technology",
+    "Private School or Higher Education Institution": "Higher Education",
+    "Grades Served": "--",
+    "City": "Kirkland",
+    "Number of Closed Days": 2,
+    "Closure Dates": "3/2–3/3, 3/5",
+    "Source": "OSPI"
+  },
+  {
+    "Name": "Bellevue Children's Academy",
+    "Private School or Higher Education Institution": "Private",
+    "Grades Served": "K–5",
+    "City": "Bellevue",
+    "Number of Closed Days": 4,
+    "Closure Dates": "3/2, 3/4–3/6",
+    "Source": "OSPI"
+  },
+  {
+    "Name": "Eastside Prep",
+    "Private School or Higher Education Institution": "Private",
+    "Grades Served": "5–12",
+    "City": "Kirkland",
+    "Number of Closed Days": 30,
+    "Closure Dates": "3/3–4/13 (classes held online)",
+    "Source": "OSPI"
+  },
+  {
+    "Name": "Willows Preparatory School",
+    "Private School or Higher Education Institution": "Private",
+    "Grades Served": "6–10",
+    "City": "Redmond",
+    "Number of Closed Days": 4,
+    "Closure Dates": "3/2, 3/4–3/6 (classes held online)",
+    "Source": "OSPI"
+  },
+  {
+    "Name": "Kirkland Seventh-Day Adventist School (SDA)",
+    "Private School or Higher Education Institution": "Private",
+    "Grades Served": "K–8",
+    "City": "Kirkland",
+    "Number of Closed Days": 3,
+    "Closure Dates": "3/3–3/6",
+    "Source": "OSPI"
+  },
+  {
+    "Name": "Clover Park Technical College",
+    "Private School or Higher Education Institution": "Higher Education",
+    "Grades Served": "--",
+    "City": "Puyallup",
+    "Number of Closed Days": 1,
+    "Closure Dates": "3/3",
+    "Source": "OSPI"
+  },
+  {
+    "Name": "Puget Sound Adventist Academy",
+    "Private School or Higher Education Institution": "Private",
+    "Grades Served": "9–12",
+    "City": "Puyallup",
+    "Number of Closed Days": 3,
+    "Closure Dates": "3/3–3/6",
+    "Source": "OSPI"
+  },
+  {
+    "Name": "Seattle Jewish Community School",
+    "Private School or Higher Education Institution": "Private",
+    "Grades Served": "K–5",
+    "City": "Seattle",
+    "Number of Closed Days": 1,
+    "Closure Dates": "3/4",
+    "Source": "OSPI"
+  },
+  {
+    "Name": "Seattle Country Day School",
+    "Private School or Higher Education Institution": "Private",
+    "Grades Served": "K–8",
+    "City": "Seattle",
+    "Number of Closed Days": 1,
+    "Closure Dates": "3/3",
+    "Source": "OSPI"
+  },
+  {
+    "Name": "Everett Community College",
+    "Private School or Higher Education Institution": "Higher Education",
+    "Grades Served": "--",
+    "City": "Everett",
+    "Number of Closed Days": 1,
+    "Closure Dates": "3/6",
+    "Source": "OSPI"
+  },
+  {
+    "Name": "Eastside Catholic School",
+    "Private School or Higher Education Institution": "Private",
+    "Grades Served": "6–12",
+    "City": "Sammamish",
+    "Number of Closed Days": 1,
+    "Closure Dates": "3/6",
+    "Source": "OSPI"
+  },
+  {
+    "Name": "Washington State University Everett",
+    "Private School or Higher Education Institution": "Higher Education",
+    "Grades Served": "--",
+    "City": "Everett",
+    "Number of Closed Days": 1,
+    "Closure Dates": "3/6",
+    "Source": "OSPI"
+  }
+]

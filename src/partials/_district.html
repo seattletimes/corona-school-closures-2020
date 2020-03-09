@@ -1,0 +1,21 @@
+<% if(item.SchoolorDistrict === "District") { %>
+
+  <div id="<%= item.id %>" class="district" data-county="<%= item.county %>">
+    <div class="description">
+      <div class="dis_Name"><%= item.Name %>
+
+      <% if(item.startDate) { %>
+        <span class="closedDated">closed for <%= item.NumberofClosedDays %> days from: <%= item.startDate %> until <%= item.endDate %></span>
+      <% } else { %>
+        <span class="closedDated">closed on <%= item.endDate %></span>
+      <% } %>
+      </div>
+
+      <div><%= item.county %> County</div>
+    </div>
+    <div class="source">Source: <%= item.Source %></div>
+  </div>
+
+
+
+<% } %>

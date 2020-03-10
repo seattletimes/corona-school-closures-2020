@@ -1,0 +1,62 @@
+[
+  {
+    "Name": "Green River College",
+    "privateORhigherEd": "Higher Education",
+    "GradeLevel": "--",
+    "District": "Auburn",
+    "NumberofClosedDays": 10,
+    "ClosureDates": "3/9 (closed), 3/10–3/20 (classes held online)",
+    "Source": "OPSI",
+    "startDate": "3/9",
+    "endDate": "3/20",
+    "online": "classes held online from 3/10 to 3/20",
+    "SchoolorDistrict": "School",
+    "county": "King",
+    "id": "GreenRiverCollege"
+  },
+  {
+    "Name": "University of Washington (all 3 campuses)",
+    "privateORhigherEd": "Higher Education",
+    "GradeLevel": "--",
+    "District": "Seattle, Bothell, & Tacoma",
+    "NumberofClosedDays": 9,
+    "ClosureDates": "3/9–3/20 (classes held online)",
+    "Source": "OPSI",
+    "startDate": "3/9",
+    "endDate": "3/20",
+    "online": "classes held online",
+    "SchoolorDistrict": "School",
+    "county": "King",
+    "id": "UniversityofWashington(all3campuses)"
+  },
+  {
+    "Name": "Renton Technical College",
+    "privateORhigherEd": "Higher Education",
+    "GradeLevel": "--",
+    "District": "Renton",
+    "NumberofClosedDays": 2,
+    "ClosureDates": "3/9–3/10",
+    "Source": "OPSI",
+    "startDate": "3/9",
+    "endDate": "3/10",
+    "online": "",
+    "SchoolorDistrict": "School",
+    "county": "King",
+    "id": "RentonTechnicalCollege"
+  },
+  {
+    "Name": "Cascadia College",
+    "privateORhigherEd": "Higher Education",
+    "GradeLevel": "--",
+    "District": "Bothell",
+    "NumberofClosedDays": 10,
+    "ClosureDates": "3/9–3/20 (classes held online)",
+    "Source": "OPSI",
+    "startDate": "3/9",
+    "endDate": "3/20",
+    "online": "classes held online",
+    "SchoolorDistrict": "School",
+    "county": "King",
+    "id": "CascadiaCollege"
+  }
+]

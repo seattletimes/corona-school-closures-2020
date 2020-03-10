@@ -6,7 +6,7 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2020/education/school-closure-tracker-coronavirus/"
     }
   },
   "title": "",
@@ -18,5 +18,5 @@
   "sheets": ["1dX6eGPThVx-CpOCSBsTanH2EqbczEe-4NYmgFPph8Zo"],
   "docs": [],
   "embedded": true,
-  "production": false
+  "production": true
 }

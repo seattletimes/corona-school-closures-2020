@@ -1,7 +1,8 @@
 // var paywall = require("./lib/paywall");
 // setTimeout(() => paywall(12345678), 5000);
 var pub_schools = require("../../data/public.sheet.json");
-var pri_schools = require("../../data/private.sheet.json");
+var pri_schools = require("../../data/privateSchools.sheet.json");
+var hi_ed = require("../../data/higherEd.sheet.json");
 require("component-responsive-frame/child");
 
 var today = new Date();
@@ -32,6 +33,20 @@ function privateSchools() {
       console.log(element.endDate);
       document.getElementById( element.county ).classList.remove("hideMe");
     } else {
+      console.log(element);
+      thisSchool.style.display = "none";
+    }
+  });
+};
+
+function higherEd() {
+  hi_ed.forEach((element) => {
+    var thisSchool = document.getElementById( element.id );
+    if ( element.endDate >= today ){
+      console.log(element.endDate);
+      document.getElementById( element.county ).classList.remove("hideMe");
+    } else {
+      console.log(element);
       thisSchool.style.display = "none";
     }
   });
@@ -53,6 +68,8 @@ console.log(privateORpublic);
 
 if ( privateORpublic === "private" ){
   privateSchools();
+} else if ( privateORpublic === "higher" ) {
+  higherEd();
 } else { publicSchools(); }
 
 

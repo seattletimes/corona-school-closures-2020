@@ -1,63 +1,80 @@
 @import "seattletimes";
 
+.graphic-chatter {
+  margin: 0;
+}
+
+.graphic-chatter:nth-child(3){
+  margin-bottom: 2em;
+}
+
 .filter {
   margin-bottom: 2em;
+  text-align: center;
+  font-family: @df-sans;
 
   .countyButton {
     text-align: center;
-    width: 100px;
+    width: 130px;
     background-color: #aaa;
     color: white;
     border-radius: 5px;
     display: inline-block;
-    margin: 0.5em;
+    margin: 0.5em 0.3em;
+    cursor: pointer;
+
+    &.selected {
+      background-color: black;
+    }
   }
 
   .countyButton:hover {
-    background-color: #bbb;
+    background-color: black;
   }
 }
 
+.schoolList {
+  font-size: 17px;
+}
 
 
-.school {
-  background-color: #efefef;
+.school, .district {
+  background-color: #f9f9f9;
   font-family: @df-sans;
-  margin: 0.5em 0;
+  margin: 0.2em 0;
+  padding: 0 0.5em;
+  width: 49.7%;
+  display: inline-block;
+
+  @media @mobile {
+    width: 100%;
+    display: block;
+  }
 
   .description{
     padding: 1em;
 
     .name {
       font-weight: 900;
+      margin-bottom: 0.3em;
     }
   }
 
   .source {
-    text-align: right;
-    padding: 0 5px 5px 0;
+    padding-top: 1em;
     font-size: 0.9em;
+    font-style: italic;
+    color: #676767;
   }
 }
 
 
 .district {
-  background-color: red;
-  font-family: @df-sans;
-  margin: 0.5em 0;
 
-  .description{
-    padding: 1em;
-
-    .dis_Name {
-      font-weight: 900;
-    }
-  }
-
-  .source {
-    text-align: right;
-    padding: 0 5px 5px 0;
-    font-size: 0.9em;
+  .dis_Name {
+    font-weight: 900;
+    margin-bottom: 0.3em;
+    text-decoration: underline;
   }
 }
 

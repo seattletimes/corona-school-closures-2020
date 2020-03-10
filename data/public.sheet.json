@@ -10,6 +10,7 @@
     "Source": "OSPI",
     "startDate": "",
     "endDate": "3/06",
+    "online": "",
     "county": "King",
     "id": "MarinerHigh"
   },
@@ -24,6 +25,7 @@
     "Source": "OSPI",
     "startDate": "",
     "endDate": "3/02",
+    "online": "",
     "county": "King",
     "id": "DiscoveryElementary"
   },
@@ -38,6 +40,7 @@
     "Source": "OSPI",
     "startDate": "3/02",
     "endDate": "3/03",
+    "online": "",
     "county": "King",
     "id": "KentwoodHigh"
   },
@@ -52,6 +55,7 @@
     "Source": "OSPI",
     "startDate": "3/02",
     "endDate": "3/03",
+    "online": "",
     "county": "King",
     "id": "CovingtonElementary"
   },
@@ -66,6 +70,7 @@
     "Source": "OSPI",
     "startDate": "",
     "endDate": "3/06",
+    "online": "",
     "county": "King",
     "id": "HazenHigh"
   },
@@ -80,6 +85,7 @@
     "Source": "OSPI",
     "startDate": "3/02",
     "endDate": "3/04",
+    "online": "",
     "county": "King",
     "id": "FrankLoveElementary"
   },
@@ -94,6 +100,7 @@
     "Source": "OSPI",
     "startDate": "2/27",
     "endDate": "2/28",
+    "online": "",
     "county": "King",
     "id": "BothellHigh"
   },
@@ -108,6 +115,7 @@
     "Source": "OSPI",
     "startDate": "",
     "endDate": "3/06",
+    "online": "",
     "county": "King",
     "id": "NorthshoreSchoolDistrict"
   },
@@ -122,6 +130,7 @@
     "Source": "OSPI",
     "startDate": "",
     "endDate": "3/02",
+    "online": "",
     "county": "King",
     "id": "FerrucciJuniorHigh"
   },
@@ -136,6 +145,7 @@
     "Source": "OSPI",
     "startDate": "",
     "endDate": "3/02",
+    "online": "",
     "county": "King",
     "id": "WildwoodElementary"
   },
@@ -150,6 +160,7 @@
     "Source": "OSPI",
     "startDate": "3/09",
     "endDate": "3/11",
+    "online": "",
     "county": "King",
     "id": "ColvilleSchoolDistrict"
   },
@@ -164,6 +175,7 @@
     "Source": "OSPI",
     "startDate": "",
     "endDate": "3/02",
+    "online": "",
     "county": "King",
     "id": "JacksonHigh"
   },
@@ -178,6 +190,7 @@
     "Source": "OSPI",
     "startDate": "",
     "endDate": "3/02",
+    "online": "",
     "county": "King",
     "id": "KingstonHigh"
   },
@@ -192,6 +205,7 @@
     "Source": "OSPI",
     "startDate": "",
     "endDate": "3/03",
+    "online": "",
     "county": "King",
     "id": "MountainViewElementary"
   },
@@ -206,6 +220,7 @@
     "Source": "OSPI",
     "startDate": "",
     "endDate": "3/03",
+    "online": "",
     "county": "King",
     "id": "GroveElementary"
   },
@@ -220,6 +235,7 @@
     "Source": "OSPI",
     "startDate": "",
     "endDate": "3/05",
+    "online": "",
     "county": "King",
     "id": "MonroeSchoolDistrict"
   },
@@ -234,6 +250,7 @@
     "Source": "OSPI",
     "startDate": "3/09",
     "endDate": "3/10",
+    "online": "",
     "county": "Pierce",
     "id": "LyonElementary"
   },
@@ -248,6 +265,7 @@
     "Source": "OSPI",
     "startDate": "3/09",
     "endDate": "3/10",
+    "online": "",
     "county": "Snohomish",
     "id": "WoodsideElementary"
   },
@@ -262,7 +280,23 @@
     "Source": "OSPI",
     "startDate": "",
     "endDate": "3/09",
+    "online": "",
     "county": "King",
     "id": "EchoLakeElementary"
+  },
+  {
+    "Name": "Northshore School District",
+    "SchoolorDistrict": "District",
+    "GradeLevel": "All",
+    "District": "Northshore",
+    "EducationalServiceDistrict": 121,
+    "NumberofClosedDays": 3,
+    "ClosureDates": "3/3, 3/5–3/6 (online learning will begin 3/9)",
+    "Source": "OSPI",
+    "startDate": "3/05",
+    "endDate": "further notice",
+    "online": "online learning will begin 3/9",
+    "county": "King",
+    "id": "NorthshoreSchoolDistrict"
   }
 ]

@@ -2,18 +2,23 @@
 
   <div id="<%= item.id %>" class="district" data-county="<%= item.county %>">
     <div class="description">
-      <div class="dis_Name"><%= item.Name %>
+      <div class="dis_Name">ALL SCHOOLS - <%= item.Name %></div>
+
+      <div>(<%= item.county %> County)</div>
 
       <% if(item.startDate) { %>
-        <span class="closedDated">closed for <%= item.NumberofClosedDays %> days from: <%= item.startDate %> until <%= item.endDate %></span>
+        <span class="closedDated">closed <%= item.startDate %> until <%= item.endDate %></span>
       <% } else { %>
-        <span class="closedDated">closed on <%= item.endDate %></span>
+        <span class="closedDated">closed <%= item.endDate %></span>
       <% } %>
-      </div>
 
-      <div><%= item.county %> County</div>
+      <% if(item.online) { %>
+        <div class="online"><%= item.online %></div>
+      <% } %>
+
+
+      <div class="source">Source: <%= item.Source %></div>
     </div>
-    <div class="source">Source: <%= item.Source %></div>
   </div>
 
 

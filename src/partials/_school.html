@@ -4,15 +4,21 @@
     <div class="description">
       <div class="name"><%= item.Name %></div>
 
-      <div><%= item.District %> School District in <%= item.county %> County</div>
+      <div><%= item.District %> School District (<%= item.county %> County)</div>
 
       <% if(item.startDate) { %>
-        <div class="closedDated">Closed for <%= item.NumberofClosedDays %> days from: <%= item.startDate %> until <%= item.endDate %></div>
+        <div class="closedDated">Closed <%= item.startDate %> until <%= item.endDate %></div>
       <% } else { %>
-        <div class="closedDated">Closed on <%= item.endDate %></div>
+        <div class="closedDated">Closed <%= item.endDate %></div>
       <% } %>
+
+      <% if(item.online) { %>
+        <div class="online"><%= item.online %></div>
+      <% } %>
+
+      <div class="source">Source: <%= item.Source %></div>
     </div>
-    <div class="source">Source: <%= item.Source %></div>
+
   </div>
 
 <% } %>

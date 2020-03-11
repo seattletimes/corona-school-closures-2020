@@ -42,7 +42,7 @@
 
       <div class="schoolList">
         <% json.privateSchools.sort(function(a, b) { return a.order - b.order }).forEach(function(item, i) { %>
-            <%= t.include("partials/_school.html", { item: item, index: i }) %>
+            <%= t.include("partials/_schoolNoDis.html", { item: item, index: i }) %>
         <% }); %>
       </div>
 

@@ -42,11 +42,7 @@
 
       <div class="schoolList">
         <% json.higherEd.sort((a, b) => a.Name.localeCompare(b.Name)).forEach(function(item, i) { %>
-          <%= t.include("partials/_district.html", { item: item, index: i }) %>
-        <% }) %>
-
-        <% json.higherEd.sort((a, b) => a.Name.localeCompare(b.Name)).forEach(function(item, i) { %>
-          <%= t.include("partials/_school.html", { item: item, index: i }) %>
+          <%= t.include("partials/_schoolNoDis.html", { item: item, index: i }) %>
         <% }) %>
       </div>
 

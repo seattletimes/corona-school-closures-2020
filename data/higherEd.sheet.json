@@ -58,5 +58,50 @@
     "SchoolorDistrict": "School",
     "county": "King",
     "id": "CascadiaCollege"
+  },
+  {
+    "Name": "DigiPen Institute of Technology",
+    "privateORhigherEd": "",
+    "GradeLevel": "",
+    "District": "",
+    "NumberofClosedDays": "",
+    "ClosureDates": "",
+    "Source": "",
+    "startDate": "3/9",
+    "endDate": "3/22",
+    "online": "Campus remains open, but classes held online",
+    "SchoolorDistrict": "School",
+    "county": "King",
+    "id": "DigiPenInstituteofTechnology"
+  },
+  {
+    "Name": "Seattle Central College",
+    "privateORhigherEd": "",
+    "GradeLevel": "",
+    "District": "",
+    "NumberofClosedDays": "",
+    "ClosureDates": "",
+    "Source": "",
+    "startDate": "3/9",
+    "endDate": "3/26",
+    "online": "Campus remains open, but classes held online",
+    "SchoolorDistrict": "School",
+    "county": "King",
+    "id": "SeattleCentralCollege"
+  },
+  {
+    "Name": "Seattle Pacific University",
+    "privateORhigherEd": "",
+    "GradeLevel": "",
+    "District": "",
+    "NumberofClosedDays": "",
+    "ClosureDates": "",
+    "Source": "",
+    "startDate": "3/9",
+    "endDate": "3/30",
+    "online": "Campus remains open, but classes held online",
+    "SchoolorDistrict": "School",
+    "county": "King",
+    "id": "SeattlePacificUniversity"
   }
 ]

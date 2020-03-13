@@ -7,9 +7,9 @@
       <div>(<%= item.county %> County)</div>
 
       <% if(item.startDate) { %>
-        <div class="closedDated">Closed <%= item.startDate %> to <%= item.endDate %></div>
+        <div class="closedDated">In-person classes closed <%= item.startDate %> to <%= item.endDate %></div>
       <% } else { %>
-        <div class="closedDated">Closed <%= item.endDate %></div>
+        <div class="closedDated">In-person classes closed <%= item.endDate %></div>
       <% } %>
 
       <% if(item.online) { %>

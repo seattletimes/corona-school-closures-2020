@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "Meridian School District",
+    "SchoolorDistrict": "District",
+    "GradeLevel": "All",
+    "District": "Bellingham",
+    "EducationalServiceDistrict": 189,
+    "NumberofClosedDays": 2,
+    "ClosureDates": "3/10–3/11",
+    "Source": "OSPI",
+    "startDate": "3/10",
+    "endDate": "3/11",
+    "online": "",
+    "county": "Whatcom",
+    "id": "MeridianSchoolDistrict"
+  },
+  {
+    "Name": "Bainbridge Island School District",
+    "SchoolorDistrict": "District",
+    "GradeLevel": "",
+    "District": "Bainbridge Island School District",
+    "EducationalServiceDistrict": "",
+    "NumberofClosedDays": "",
+    "ClosureDates": "",
+    "Source": "",
+    "startDate": "3/12",
+    "endDate": "3/13",
+    "online": "",
+    "county": "Kitsap",
+    "id": "BainbridgeIslandSchoolDistrict"
+  }
+]

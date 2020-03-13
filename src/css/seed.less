@@ -1,5 +1,18 @@
 @import "seattletimes";
 
+
+.urgent {
+  padding: 1em;
+  margin: 0.5em auto;
+  background-color: #ffaaaa;
+  font-family: @df-sans;
+
+  span {
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+}
+
 .graphic-hed {
   margin-bottom: 0;
 }
@@ -54,7 +67,7 @@
   vertical-align: top;
 
   @media @desktop-up {
-    width: 49.7%;
+    // width: 49.7%;
     height: 140px;
     display: inline-block;
   }

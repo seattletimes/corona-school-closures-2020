@@ -13,37 +13,41 @@
       <%= t.include("partials/_gtmNoScript.html") %>
     <% } %>
     <responsive-child>
-      <div id="private" class="container">
+      <div id="public" class="container">
       <!-- content goes here -->
-      <h2 class="graphic-hed">Coronavirus private school closures</h2>
+      <h2 class="graphic-hed">Coronavirus public school closures</h2>
       <h4 class="graphic-chatter">Click to filter closures by county:</h4>
       <h4 class="graphic-chatter"><i>Last updated: March 11 at 10:32 a.m.</i></h4>
 
         <div class="filter">
           <div class="countyButton selected" id="all">All</div>
-           <% var countiesTwo = [];
-           json.privateSchools.sort(function(a, b) { return a.order - b.order }).forEach(function(item, i) {
+           <% var counties = [];
+           json.public.sort((a, b) => a.county.localeCompare(b.county)).forEach(function(item, i) {
              if(item.county) {
 
-               if( countiesTwo.includes( item.county ) ) {
+               if( counties.includes( item.county ) ) {
 
                } else {
-                 countiesTwo.push( item.county );
+                 counties.push( item.county );
                }
 
              }
            }); %>
 
-           <% countiesTwo.forEach(function(item, i){ %>
+           <% counties.forEach(function(item, i){ %>
              <%= t.include("partials/_countyNav.html", { item: item, index: i }) %>
            <% }) %>
 
         </div>
 
       <div class="schoolList">
-        <% json.privateSchools.sort(function(a, b) { return a.order - b.order }).forEach(function(item, i) { %>
-            <%= t.include("partials/_schoolNoDis.html", { item: item, index: i }) %>
-        <% }); %>
+        <% json.public.sort((a, b) => a.Name.localeCompare(b.Name)).forEach(function(item, i) { %>
+          <%= t.include("partials/_district.html", { item: item, index: i }) %>
+        <% }) %>
+
+        <% json.public.sort((a, b) => a.Name.localeCompare(b.Name)).forEach(function(item, i) { %>
+          <%= t.include("partials/_school.html", { item: item, index: i }) %>
+        <% }) %>
       </div>
 
     </div>
@@ -52,6 +56,11 @@
           <p class="data-source">Source: <a href="https://www.k12.wa.us/about-ospi/press-releases/novel-coronavirus-covid-19-guidance-resources">OSPI</a></p>
           <p class="art-credit">Lauren Flannery / The Seattle Times</p>
     </div>
+
+
+
+
+
     </responsive-child>
 
     <script src="app.js" async></script>

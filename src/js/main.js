@@ -1,6 +1,6 @@
 // var paywall = require("./lib/paywall");
 // setTimeout(() => paywall(12345678), 5000);
-var pub_schools = require("../../data/public.sheet.json");
+var pub_schools = require("../../data/notcoun.sheet.json");
 var pri_schools = require("../../data/privateSchools.sheet.json");
 var hi_ed = require("../../data/higherEd.sheet.json");
 require("component-responsive-frame/child");

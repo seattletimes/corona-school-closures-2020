@@ -15,39 +15,34 @@
     <responsive-child>
       <div id="public" class="container">
       <!-- content goes here -->
-      <h2 class="graphic-hed">Coronavirus public school closures</h2>
-      <h4 class="graphic-chatter">Click to filter closures by county:</h4>
-      <h4 class="graphic-chatter"><i>Last updated: March 10 at 1:02 p.m.</i></h4>
+      <h2 class="graphic-hed">Coronavirus school closures</h2>
+      <!-- <h4 class="graphic-chatter">Click to filter closures by county:</h4> -->
+      <h4 class="graphic-chatter"><i>Last updated: March 12 at 2:05 p.m.</i></h4>
 
-        <div class="filter">
-          <div class="countyButton selected" id="all">All</div>
-           <% var counties = [];
-           json.public.sort((a, b) => a.county.localeCompare(b.county)).forEach(function(item, i) {
-             if(item.county) {
 
-               if( counties.includes( item.county ) ) {
-
-               } else {
-                 counties.push( item.county );
-               }
-
-             }
-           }); %>
-
-           <% counties.forEach(function(item, i){ %>
-             <%= t.include("partials/_countyNav.html", { item: item, index: i }) %>
-           <% }) %>
-
-        </div>
 
       <div class="schoolList">
-        <% json.public.sort((a, b) => a.Name.localeCompare(b.Name)).forEach(function(item, i) { %>
-          <%= t.include("partials/_district.html", { item: item, index: i }) %>
-        <% }) %>
+        <div class="urgent">
+          <b><span>Governor's executive order:</span> All King County K-12 public and private schools must close and end classes no later than March 17, and will remain closed through April 24.</b>
+        </div>
 
-        <% json.public.sort((a, b) => a.Name.localeCompare(b.Name)).forEach(function(item, i) { %>
-          <%= t.include("partials/_school.html", { item: item, index: i }) %>
-        <% }) %>
+        <div class="urgent">
+          <b><span>Governor's executive order:</span> All Pierce County K-12 public and private schools must close and end classes no later than March 17, and will remain closed through April 24.</b>
+        </div>
+
+        <div class="urgent">
+          <b><span>Governor's executive order:</span> All Snohomish County K-12 public and private schools must close and end classes no later than March 17, and will remain closed through April 24.</b>
+        </div>
+
+
+
+          <% json.notcoun.sort((a, b) => a.Name.localeCompare(b.Name)).forEach(function(item, i) { %>
+            <%= t.include("partials/_district.html", { item: item, index: i }) %>
+          <% }) %>
+
+          <% json.notcoun.sort((a, b) => a.Name.localeCompare(b.Name)).forEach(function(item, i) { %>
+            <%= t.include("partials/_school.html", { item: item, index: i }) %>
+          <% }) %>
       </div>
 
     </div>
